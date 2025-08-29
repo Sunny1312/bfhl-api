@@ -64,9 +64,9 @@ app.post('/bfhl', (req, res) => {
         
         reversedAlphabets.forEach((char, index) => {
             if (index % 2 === 0) {
-                concatString += char.toLowerCase();
-            } else {
                 concatString += char.toUpperCase();
+            } else {
+                concatString += char.toLowerCase();
             }
         });
 
