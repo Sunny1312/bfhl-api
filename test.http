@@ -53,10 +53,25 @@ Content-Type: application/json
   "data": "not_an_array"
 }
 
-### After deployment - replace with your actual URL
-# POST https://your-app-name.vercel.app/bfhl
-# Content-Type: application/json
-# 
-# {
-#   "data": ["a","1","334","4","R", "$"]
-# }
+### Test deployed API - LIVE VERSION
+POST https://bhfl-cuptrlyo2-surya-sunanda-meesalas-projects.vercel.app/bfhl
+Content-Type: application/json
+
+{
+  "data": ["a","1","334","4","R", "$"]
+}
+
+###
+
+# Test deployed API - Example B
+POST https://bhfl-cuptrlyo2-surya-sunanda-meesalas-projects.vercel.app/bfhl
+Content-Type: application/json
+
+{
+  "data": ["2","a", "y", "4", "&", "-", "*", "5","92","b"]
+}
+
+###
+
+# Test deployed GET endpoint
+GET https://bhfl-cuptrlyo2-surya-sunanda-meesalas-projects.vercel.app/bfhl
